@@ -31,6 +31,9 @@
                             <constraint firstItem="PMO-HJ-9Fv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="uXw-kP-jRs"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="myImage" destination="PMO-HJ-9Fv" id="ONe-Ja-4gR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
