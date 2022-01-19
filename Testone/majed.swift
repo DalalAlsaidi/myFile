@@ -9,11 +9,11 @@ import Foundation
 
 struct Person{
     var name:String
-    var age:Int
+
 }
 
 
 
-let person = Person(name: "Ahmed", age: 24)
-let newObj = Person(name: "Saleh", age: 22)
+let person = Person(name: "Ahmed")
+let newObj = Person(name: "Saleh")
 
