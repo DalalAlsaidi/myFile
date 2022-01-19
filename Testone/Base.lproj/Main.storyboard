@@ -15,27 +15,9 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IvO-Uo-OgA">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="414" id="9dw-kp-vee"/>
-                                    <constraint firstAttribute="height" constant="818" id="HaD-zk-IeV"/>
-                                </constraints>
-                            </imageView>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IvO-Uo-OgA" secondAttribute="trailing" id="4M9-FD-DNk"/>
-                            <constraint firstItem="IvO-Uo-OgA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="KoM-za-NuE"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="IvO-Uo-OgA" secondAttribute="bottom" id="URX-ba-itV"/>
-                            <constraint firstItem="IvO-Uo-OgA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="r7r-kH-sOX"/>
-                        </constraints>
                     </view>
-                    <connections>
-                        <outlet property="myImage" destination="IvO-Uo-OgA" id="jhO-FR-WPW"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
